@@ -1,5 +1,4 @@
 import { Container, Grid, Paper } from '@material-ui/core';
-import 'bootstrap/dist/css/bootstrap.css';
 import { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
 import '../style.css'
