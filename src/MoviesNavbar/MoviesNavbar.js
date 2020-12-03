@@ -1,6 +1,5 @@
 import { AppBar, ClickAwayListener, Fab, Grow, Hidden, IconButton, makeStyles, MenuItem, MenuList, Paper, Popper, Toolbar, Typography, useScrollTrigger, Zoom } from '@material-ui/core';
 import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.css';
 import { useEffect, useRef, useState } from 'react';
 import MenuIcon from '@material-ui/icons/Menu';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
