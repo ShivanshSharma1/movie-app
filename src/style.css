@@ -1,0 +1,56 @@
+.select svg{
+    color:white
+}
+
+.select input{
+    text-decoration-color:white;
+    color: white;
+    background-color: white;
+    border-color: white;
+}
+
+.fade-enter{
+    opacity: 0;
+    position: relative;
+ }
+ .fade-exit{
+    opacity: 1;
+ }
+ .fade-enter-active{
+    opacity: 1;
+ }
+ .fade-exit-active{
+    opacity: 0;
+ }
+ .fade-enter-active,
+ .fade-exit-active{
+    transition: opacity 500ms
+ }
+
+.fade2-enter {
+   transform: translateX(100%);
+   z-index: 1;
+}
+
+.fade2-enter.fade2-enter-active {
+   transform: translateX(0%);
+  transition: transform 500ms ease-in-out;
+}
+
+.fade2-exit {
+   transform: translateX(0%);
+   z-index: 1;
+}
+.fade2-exit-active {
+   transform: translateX(-100%);
+   transition: transform 500ms ease-in-out;
+}
+
+.hovering-enter {
+   opacity: 0;
+}
+
+.hovering-enter-active {
+   opacity: 1;
+   transform: opacity 500ms;
+}
